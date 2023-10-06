@@ -1,0 +1,34 @@
+.project
+  &-box
+    margin-top: 80px
+  .contact-item
+    // margin-top: 16px
+    display: flex
+    flex-direction: column
+    gap: 40px
+    padding: 40px
+    border-radius: 20px
+    background: rgba(0, 138, 252, 0.15)
+    grid-column: 1/4
+    .button-color
+      width: 147px
+      background: var(--primary-200)
+      color: var(--neutral-50)
+      font-size: 18px
+      font-weight: 500
+  &-card-list
+    position: relative
+    width: auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    gap: 16px
+    .image 
+      width: 100%
+      hight: 100%
+  &-card
+    border-radius: 20px
+    overflow: hidden
+    &:hover .image 
+      transform: scale(1.1,1.1)
+      transition: all .2s linear
+

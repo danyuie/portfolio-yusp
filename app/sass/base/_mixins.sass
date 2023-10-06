@@ -1,0 +1,11 @@
+@mixin maxW($breakpoints) 
+  @media (max-width: $breakpoints)
+    @content 
+ 
+@mixin minW($breakpoints) 
+  @media (min-width: $breakpoints) 
+    @content
+
+@mixin min-maxW($breakpointsmin, $breakpointsmax) 
+  @media (min-width: $breakpointsmin) and (max-width: $breakpointsmax) 
+    @content 

@@ -1,0 +1,32 @@
+{
+  "name": "yusp-studio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "html-react-parser": "^4.2.2",
+    "moment": "^2.29.4",
+    "next": "latest",
+    "react": "latest",
+    "react-collapse": "^5.1.1",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "sass": "^1.68.0",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}

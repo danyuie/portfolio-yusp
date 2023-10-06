@@ -1,0 +1,30 @@
+.button 
+  // width: 100%
+  display: flex
+  align-content: center
+  gap: 4px
+  cursor: pointer
+  outline: none
+  font-family: "aspekta"
+  font-size: 16px
+  font-weight: 400
+  line-height: 150%
+  color: var(--neutral-500)
+  &-primary
+    padding: 10px 24px
+    border-radius: 200px
+    border: 1px solid var(--primary-200)
+    background: rgba(0, 138, 252, 0.15)
+    &:hover
+      background: var(--primary-200)
+      color: var(--neutral-50)
+      transition: .2s linear
+
+  &-secondary
+    padding: 4px 0 
+    border: none
+    background: none
+    border-bottom: 1px solid var(--neutral-500)
+    &:hover
+      color: #000
+      transition: .2s linear
